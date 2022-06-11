@@ -3,6 +3,8 @@ import { Configure, InstantSearch } from 'react-instantsearch-hooks';
 
 import { Autocomplete, Hit } from './components';
 import {
+  API_KEY,
+  APP_ID,
   INSTANT_SEARCH_HIERARCHICAL_ATTRIBUTES,
   INSTANT_SEARCH_INDEX_NAME,
 } from './constants';
@@ -12,8 +14,8 @@ import './App.css';
 
 function App() {
   const searchClient = algoliasearch(
-    '4X7K7P99Y5',
-    '1249ba9abb4f74adb78fef67f8bb585c'
+  APP_ID,
+  API_KEY,
   );
 
   return (

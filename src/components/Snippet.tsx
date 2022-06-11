@@ -19,7 +19,7 @@ function HighlightPart({
   isHighlighted,
   nonHighlightedTagName,
 }: HighlightPartProps) {
-  const TagName = isHighlighted ? highlightedTagName : nonHighlightedTagName;
+  const TagName:any = isHighlighted ? highlightedTagName : nonHighlightedTagName;
 
   return (
     <TagName

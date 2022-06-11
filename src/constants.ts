@@ -2,8 +2,9 @@ export const INSTANT_SEARCH_INDEX_NAME = 'articles';
 export const INSTANT_SEARCH_QUERY_SUGGESTIONS =
   'articles_query_suggestions';
 export const INSTANT_SEARCH_HIERARCHICAL_ATTRIBUTES = [
-  'tags_indexing',
-  'tags_indexing',
+  'category_indexing',
+  'category_child_indexing'
+
 ];
 
 export const APP_ID = import.meta.env.VITE_ALGOLIA_APP_ID || '';

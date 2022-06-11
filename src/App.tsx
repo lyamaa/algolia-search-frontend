@@ -18,6 +18,9 @@ function App() {
   API_KEY,
   );
 
+  console.log("APP_ID", APP_ID);
+  console.log("API_KEY", API_KEY);
+
   return (
     <div>
       <InstantSearch
